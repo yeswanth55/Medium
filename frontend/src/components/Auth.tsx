@@ -17,7 +17,7 @@ export const Auth=(/*{type}:Authcheck*/)=>{
     const navigate=useNavigate()
     async function sendRequest(){
         try{
-            const response=await axios.post(`${Backend_Url}/api/v1/user/signup`,inputValue);
+            await axios.post(`${Backend_Url}/api/v1/user/signup`,inputValue);
             navigate("/signin")
         }catch(e){
             alert("error while signing up")

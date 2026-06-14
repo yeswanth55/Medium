@@ -23,7 +23,7 @@ export const Blog = () => {
     <div>
       <Appbar />
 
-      <div className="grid grid-cols-12 px-10 pt-12 max-w-screen-xl mx-auto">
+      <div className="grid grid-cols-12 px-10 pt-12 max-w-xl mx-auto">
 
         {/* Blog Content */}
         <div className="col-span-8">
